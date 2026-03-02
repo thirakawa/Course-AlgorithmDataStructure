@@ -1,0 +1,7 @@
+# Python dependencies for Algorithm & Data Structures examples
+# List packages used across the examples; pin versions if needed.
+
+# Example:
+# numpy>=1.24
+# networkx
+# pytest
