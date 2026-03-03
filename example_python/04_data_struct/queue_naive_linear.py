@@ -18,6 +18,7 @@ Python標準の機能を使用せずにナイーブに実装した例を
 """
 
 
+# 線形キューを自分で定義
 class LinearQueue:
     def __init__(self, capacity):
         self.capacity = capacity       # 最大要素数
