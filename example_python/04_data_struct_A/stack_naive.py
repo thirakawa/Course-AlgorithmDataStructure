@@ -14,6 +14,7 @@ Peek / Topについても実装を行なっています。
 """
 
 
+# スタックを自分で定義
 class Stack:
     def __init__(self, capacity):
         self.capacity = capacity       # 最大要素数
