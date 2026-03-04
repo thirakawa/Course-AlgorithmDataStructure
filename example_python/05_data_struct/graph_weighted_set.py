@@ -110,7 +110,7 @@ class DirectedWeightedGraph:
 
     # グラフ集合の情報を表示
     def display(self):
-        print("Weighted directed graph **************")
+        print("Weighted directed graph ***************")
         for v in self.nodes:
             print(v, ":", self.nodes[v])
         print("*" * 40)

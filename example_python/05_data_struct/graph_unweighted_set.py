@@ -105,7 +105,7 @@ class DirectedGraph:
 
     # グラフ集合の情報を表示
     def display(self):
-        print("Directed graph **************")
+        print("Directed graph ***************")
         for v in self.nodes:
             print(v, ":", self.nodes[v])
         print("*" * 30)
