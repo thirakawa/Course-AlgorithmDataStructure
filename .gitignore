@@ -1,3 +1,6 @@
 # Python's Enviromental Settings
 .python-version
 example_python/.venv/
+
+# C Programming Files
+a.out
