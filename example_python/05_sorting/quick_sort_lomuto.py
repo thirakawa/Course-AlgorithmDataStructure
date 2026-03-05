@@ -109,7 +109,7 @@ print("ソート後:", data)
 # ---------------------------------------------------------------------
 # [右端 pivot クイックソート（Lomuto partition）] 
 print("-" * 30)
-print("右端をpivotとするクイックソート（Lomuto partition）: ")
+print("右端をpivotとするクイックソート（Lomuto partition）:")
 
 # 配列の定義
 data = [3, 5, 8, 1, 2, 9, 4, 7, 6]
