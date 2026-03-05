@@ -9,6 +9,7 @@
 """
 
 
+# シンプルなハッシュ関数（ASCIIの合計値）
 def hash_simple(key):
     total = 0
     for char in key:
@@ -16,6 +17,7 @@ def hash_simple(key):
     return total
 
 
+# ハッシュテーブルのクラス定義
 class HashTable:
     def __init__(self, size):
         # 配列のサイズを指定
@@ -65,7 +67,7 @@ class HashTable:
                 return v
 
         # 指定した key のデータがなかった場合
-        raise KeyError("Keyが見つかりませんでした")
+        return None
 
     def __str__(self):
         return str(self.table)
@@ -105,4 +107,7 @@ print(f"{target} の性別情報を参照します。")
 gender = ht.get(target)
 
 # 結果の表示
-print(f"{target} の性別は {gender} です。")
+if gender is not None:
+    print(f"{target} の性別は {gender} です。")
+else:
+    print(f"{target} は見つかりませんでした。")
