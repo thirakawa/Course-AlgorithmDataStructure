@@ -2,45 +2,64 @@
 
 このディレクトリには、講義で扱うアルゴリズムとデータ構造の Python 実装が含まれています。
 
-## Python環境の構築
+## Pythonプログラム概要
 
-このリポジトリに含まれるPythonプログラムを実行するために必要な環境設定について記述します。
+`example_python` には次のディレクトリがあり、それぞれ次のような項目のプログラムが含まれています。
 
-1. **仮想環境の作成**（`venv` を使用）:
+**01_basic_alg_flow**
 
-    ここでは、環境構築の一例として `venv` を使用します。
-    OSによってコマンドが異なるため、自身のOSに合わせて設定してください。
+- 順次構造 (Sequential structure)
+- 選択構造 (Selection structure)
+- 反復構造 (Repeating structure)
 
-    **A. Mac / Linux の場合**
+**02_data_struct_A**
 
-    ```bash
-    python -m venv .venv
-    source .venv/bin/activate
-    ```
+- 配列
+- リスト（連結リスト）
+- スタック
+- キュー
+- ハッシュテーブル
 
-    **B. Windows の場合**
+**03_data_struct_B**
 
-    ```bash
-    python -m venv .venv
-    source .venv/bin/activate
-    ```
+- グラフ（無向・有向・重みなし・重みつき）
+- 木構造
+- 二分木
+- 二分探索木
+- ヒープ
 
-2. **依存関係のインストール**
+**04_search**
 
-    プログラムの実行に必要な追加パッケージをインストールします。
+- 線形探索
+- 二分探索
+- ハッシュ探索
+- 幅優先探索
+- 深さ優先探索
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+**05_sort**
 
-以上で、環境構築は完了です。
+- 選択ソート
+- 挿入ソート
+- バブルソート
+- マージソート
+- クイックソート
+- ヒープソート
+- 計数ソート（バケットソート・ビンソート）
+- 基数ソート
 
-## Pythonプログラムの実行方法
+**06_str_matching**
 
-実行したいプログラムがあるサブフォルダ（例: `03_basic_alg_flow`）に移動し、Python ファイルを実行します。
-以下では、`example_python/03_basic_alg_flow/01_sequential_struct.py`を実行する場合の例を示します。
+- 素朴な文字列パターン照合
+- KMP (Knuth–Morris–Pratt) 法
+- BM (Boyer-Moore) 法
 
-```bash
-cd 03_basic_alg_flow
-python 01_sequential_struct.py
-```
+**07_recursive_alg**
+
+- 再帰処理による階乗計算
+- ハノイの塔
+
+**08_application**
+
+- エラトステネスのふるい
+- ユークリッドの互助法
+- k-meansクラスタリング
