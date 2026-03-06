@@ -2,122 +2,87 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+アルゴリズムとデータ構造は、計算機科学の基礎となる重要な分野です。
+本講義では、効率的なアルゴリズムの設計方法と、それを支える基本的なデータ構造について学びます。
 
 
-### Definition lists can be used with HTML syntax.
+# 概要
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## 注意事項
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+- この講義はオンデマンド講義です。
+- 受講生は教員が招待するGoogle Classroomに参加してください。
+- 毎週月曜日の9:30にその週の講義動画と小テストを公開します。
+- 問い合わせ先や成績評価などの詳細は、シラバスおよびガイダンス動画を確認してください。
 
-```
-The final element.
-```
+## 講義日程
+
+| 日程 | テーマ                           | 概要                                                                               |
+|:-----|:---------------------------------|:-----------------------------------------------------------------------------------|
+| 01   | ガイダンス                       | この講義の概要を説明します。                                                       |
+| 02   | アルゴリズム・データ構造って何？ | アルゴリズムとデータ構造の一般的な概要を説明します。                               |
+| 03   | アルゴリズムを表現する方法       | アルゴリズムを表現する方法や基本的なアルゴリズムの構造を説明します。               |
+| 04   | データ構造 1                     | 線形データ構造（配列・リスト・キュー・スタック）とハッシュ関数について説明します。 |
+| 05   | データ構造 2                     | 非線形なデータ構造（グラフ・木構造）について説明します。                           |
+| 06   | 集合と探索 1                     | シンプルな探索アルゴリズムについて説明します。                                     |
+| 07   | 集合と探索 2                     | 高度な探索アルゴリズムについて説明します。                                         |
+| 08   | ソートアルゴリズム 1             | シンプルなソートアルゴリズムについて説明します。                                   |
+| 09   | ソートアルゴリズム 2             | 高度なソートアルゴリズムについて説明します。                                       |
+| 10   | ソートアルゴリズム 3             | 比較的特殊なソートアルゴリズムについて説明します。                                 |
+| 11   | 文字列パターン照合               | 文字列パターン照合のアルゴリズムを説明します。                                     |
+| 12   | 再帰呼び出し                     | 再帰呼び出しの概念について説明し、いくつか具体例を紹介します。                     |
+| 13   | 応用例 1                         | アルゴリズムを活用した応用例を紹介します。                                         |
+| 14   | 応用例 2                         | アルゴリズムを活用した応用例を紹介します。                                         |
+| 15   | アルゴリズムと計算量             | アルゴリズムと計算量の関係、計算量の求め方について説明します。                     |
+
+## 前提条件
+
+- Python プログラミングの基礎を理解していること。
+
+## 成績評価
+
+クラスの成績評価は以下の通りです。
+
+- 40% : 小テスト
+- 60% : 期末レポート
+
+### 小テスト
+
+15回の講義のうち、合計で5回ほど小テストを実施します。
+受講生は、決められた期限内に小テストを受講して提出してください。
+
+### 期末レポート
+
+学期末が近づいてきたら、期末レポートの詳細を公開します。
+受講生は、課題内容をよく理解して、レポートを期限内に提出してください。
+
+
+# 教材
+
+## 講義資料
+
+[講義資料](assets/slides/lecture_slide.pdf)
+
+## プログラム資料
+
+[GitHubリポジトリ](https://github.com/thirakawa/Course-AlgorithmDataStructure) にPythonプログラムを置いています。
+受講生はダウンロードして各自のPCで実行してください。
+
+
+# 講義
+
+- [Link to lecture 02](lectures/lecture02.html)
+- [Link to lecture 03](lectures/lecture03.html)
+- [Link to lecture 04](lectures/lecture04.html)
+- [Link to lecture 05](lectures/lecture05.html)
+- [Link to lecture 06](lectures/lecture06.html)
+- [Link to lecture 07](lectures/lecture07.html)
+- [Link to lecture 08](lectures/lecture08.html)
+- [Link to lecture 09](lectures/lecture09.html)
+- [Link to lecture 10](lectures/lecture10.html)
+- [Link to lecture 11](lectures/lecture11.html)
+- [Link to lecture 12](lectures/lecture12.html)
+- [Link to lecture 13](lectures/lecture13.html)
+- [Link to lecture 14](lectures/lecture14.html)
+- [Link to lecture 15](lectures/lecture15.html)

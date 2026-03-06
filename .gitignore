@@ -7,3 +7,6 @@ example_python/.venv/
 
 # C Programming Files
 a.out
+
+# Ruby Environemntal Settings
+.ruby-version
