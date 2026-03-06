@@ -1,7 +1,8 @@
-# Python dependencies for Algorithm & Data Structures examples
-# List packages used across the examples; pin versions if needed.
+# アルゴリズムとデータ構造のPythonプログラムの依存関係
+#
+# 使用方法:
+#   pip install -r requirements.txt
+#
+# 注記: 再現性が必要な場合はバージョンを固定してください（例: packagename==1.2.3）
 
-# Example:
-# numpy>=1.24
-# networkx
-# pytest
+networkx
